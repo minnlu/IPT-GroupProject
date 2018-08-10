@@ -1,82 +1,90 @@
 <!doctype html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<html>
-<style>
-	
-	body {
-		  background: #E3E2DF;
-		  background-attachment: fixed;
-		  align-content: center;
-	}
-
-	video {    
-			margin-top: 50px;
-			margin-bottom: 10px;
-			margin-right: 80px;
-			margin-left: 80px;
-		}
-
-	h {
-		font-size: 36px;
-		
-	}
-	
-	hr{
-		display: block;
-		margin-top: 5px;
-		margin-bottom: 15px;
-		margin-left: 65px;
-		margin-right: 65px;
-		border-color: #A9B7C0; 
-		border-width: 3px;
-	} 
-
-	
-	p {
-		font-size: 15px;
-		margin-left: 80px;
-		margin-right: 80px;
-	}
-	
-	footer{
-    position: static;
-	height: 20px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #A9B7C0;
-    color: black;
-    text-align: right;
-}
-	
-</style>
-	
+<html lang="en-US">
 <head>
-	<title>Home</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+
 </head>
-
 <body>
-	<nav class="w3-bar w3-black">
-	  <a href="Home.html" class="w3-button w3-bar-item">Home</a>
-	  <a href="TS.html" class="w3-button w3-bar-item">Technical Specification</a>
-	  <a href="Info.html" class="w3-button w3-bar-item">More Information</a>
-	  <a href="Contact.html" class="w3-button w3-bar-item">Contact</a>
-	</nav>
-
-	<video preload="none" src="blob:https://www.kickstarter.com/176d201d-eeda-4576-85bd-0317ba117630" width="1120" height="400" controls>
-	</video>	
-	<hr>
-	<section align="center">
-	<h><i><b>HACK YOUR NOTEBOOK - paper meets electronics</b></i></h>
-	</section>
-	
-	<p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper, purus sed interdum imperdiet, nisi nulla aliquam orci, vitae congue purus magna eget augue. Etiam fringilla fermentum sem, pretium pellentesque tellus blandit ut. Praesent ornare lorem ut libero cursus, sit amet dapibus urna ornare. Nunc luctus lorem sed nulla bibendum varius. Nunc eu elit nisi. Mauris auctor, turpis ut tempor congue, nunc justo rhoncus magna, a bibendum nisl nunc quis leo. Aliquam purus dui, rutrum ut justo in, mattis blandit dolor. Vivamus sodales porttitor dui, vitae convallis massa. Sed quis ligula vitae mauris ornare vestibulum.
-	Donec quzs vehicula nisi. Praesent id laoreet leo. Quisque ut luctus risus. Morbi lectus urna, facilisis in dui vel, condimentum venenatis purus. Vestibulum luctus rutrum velit, vitae tempus mauris tincidunt eget. Aliquam porttitor, nunc et pellentesque posuere, nisi purus euismod est, in ultricies mauris nulla sagittis ipsum. Proin maximus pulvinar orci, eget suscipit elit volutpat sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus hendrerit eget nisl fermentum iaculis. Suspendisse et feugiat nibh, ac semper elit.</p>
-
-	<footer>
-	Chatswood High School - 2018 - Information Technology Process - Assessment #2
-	</footer>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">NEXT-IT</h4>
+  </a>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="http://www.nexmap.org/hyn-introduction/">ABOUT</a></li>
+        <li> <a href="http://www.nexmap.org/contact/">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">HACK YOUR <span class="light">NOTEBOOK</span></h2>
+    <p class="tagline">transformational mindset for teaching and learning in the 21st century</p>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">Hack your notebook is a series of 4 booklets and associated electronics that people use to learn to design paper circuits. The purpose of this project is to get introductory design and engineering experiences to more kids and teachers . </p>
+    <p class="text_column">With a low cost technology to know “wide wall” learning experience. The materials and practices reflect deep craft traditions, the iterative approach in the scientific method, and a transformational mindset for teaching and learning in the 21st century. </p>
+    <p class="text_column">It builds future- ready teachers and learners at the intersection literacy, craft, technology, and open data. Transformational hands on learning, introductory electronics, and civic engagement, allowing learners to explore circuit for using local data to build essential literacies that connect people to each other and their communities. </p>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">1500</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">2300</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">7500</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">9870</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">ACTIVITIES</h2>
+    <p class="parallax_description">Take your notebook to the next level by adding a dedicated battery and built- in power leads. Illuminate thinking and highlight best ideas with circuit stickers LEDs</p>
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>ABOUT</h3>
+      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>The idea for Hack Your Notebook came from a random encounter that David Cole of CV2 and Jennifer Dick Nexmap, an Educator Innovator partner, had with JIe Qie, a doctoral student at the Mit media lab who focuses on blending electronics with traditional arts and crafts). </p>
+    </article>
+    <article class="footer_column">
+      <h3>LOCATION</h3>
+      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+    <div class="button">subscribe</div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright"> please note this website is not actually a representation of nextmap or nextit's trademark</div>
+</div>
+<!-- Main Container Ends -->
 </body>
 </html>
